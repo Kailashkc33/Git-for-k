@@ -98,6 +98,24 @@
     margin: 0 20px 0 20px;
     padding: 0 20px 0 20px;
 }
+input[type="login"] {
+            background-color: #656ED3; /* Green background color */
+            border: none; /* Remove default border */
+            color: white; /* White text color */
+            margin: 10px 10px;
+            padding: 10px 10px; /* Padding to make the button larger */
+            text-align: center; /* Center align text */
+            text-decoration: none; /* Remove default underline */
+            display: inline-block; /* Display as a block element */
+            font-size: 14px; /* Font size */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            border-radius: 5px; /* Rounded corners */
+        }
+        
+        /* Change background color on hover */
+        input[type="login"]:hover {
+            background-color: white;
+        }
 
 .logo{
     margin: 10px 10px 10px 10px;
@@ -137,7 +155,7 @@
                 <label for="cpw">Confirm Passowrd:</label><br>
                 <input type="password" id="cpw" name="cpw" class ="fform"><br><br>
                 <button class = "sbutton"> Register</button>
-                <p class = "pmiddle"><span style = "font-weight: normal;">Yes I have an account?<a href ="http://127.0.0.1:8000/loginpage?username=&password=" class="nav-link"> Login</a><br><br><u><span class = "contact">Contact us on:</span></u></span><br></p><br>
+                <p class = "pmiddle"><span style = "font-weight: normal;">Yes I have an account?<a href ="http://127.0.0.1:8000/loginpage?username=&password=" class="nav-link"> <input type="Login" value="Login" id="login" name ="login"></a><br><br><u><span class = "contact">Contact us on:</span></u></span><br></p><br>
                 <a href="https://wa.me/1234567890" target="_blank">
         <img src="whatsapp.png" alt="Whatsapp icons created by Fathema Khanom - Flaticonx" class = "logo">
     </a>
